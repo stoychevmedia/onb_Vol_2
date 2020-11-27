@@ -1,0 +1,68 @@
+/*Update 23 -5 */
+- Add Google Api Chart to 5 pages Detail Services
+
+/*Update 24 - 5 */
+- Fix Video About Us Page --  btn-play
+	+ add transform:scale
+	+ remove background rgba when hover
+- Fix Owl Project 3 Column in 991px screen
+- Fix Our Commitment - Progress Bar Section
+	+ hidden demo images in 991px screen
+- Add Shop Cart, Shop Check Out Pages
+- Validate All.
+- Update 404 Page
+- Update Link Pages to Mobile Menu
+
+/*Update 25 - 5 */
+- Fix Blog Detail, Blog List Page
+	+ Remove float left, insteal display:inline-block;
+		* .footer-detail-blog, .entry_post_navigation, .comments-area, .comment-respond
+ 	+ Add padding for reponsive less than 911px;
+
+- Update background color submenu desktop to theme-color
+- Change background Home 4 Section parallax
+
+/* Update 27 - 5 */
+- Replace Images Slider
+	+ folder images/Slider : 10.jpg, 11.jpg
+/* Update 30 - 5 */
+
+- Update Yellow schema
+
+/* Update 28 - 6 */
+-  Margin right broken pages  Blog List & Blog Detail  in Mobile
+
+
+	/* Small Devices, Tablets */
+    @media only screen and (max-width : 767px) {
+        .content-area .item-lastest-news
+        {
+            padding-right: 0;
+        }
+        .widget-area
+        {
+            padding-left: 15px;
+        }
+        .content-area
+        {
+            padding-right: 15px;
+        }
+        .textwidget,.widget_search,.tagcloud,.widget-area h3
+        {
+            padding-left: 0;
+        }
+
+        .promotion 
+        {
+            margin-left: 0;
+        }
+        .widget-area ul
+        {
+            padding-left: 20px;
+        }
+    }
+
+/* Update 6 - 7 */
+	- Update HomePage Verison 6
+	- Update Menu Link Home 6
+	- Add custom-js-home-6.js in folder js/plugins
